@@ -1,5 +1,5 @@
 Sure, I'd be happy to explain this code!
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wordfence.com%2Fblog%2F2016%2F10%2Frevslider-mailpoet-gravityforms-exploits-bypass-cloudflare-waf%2F&psig=AOvVaw2Vvopqn3JH1td1D3ZGZ7sy&ust=1712442257646000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCrkN6OrIUDFQAAAAAdAAAAABAE
+
 
 This code is written in Python and uses the DrissionPage library to automate a Chromium-based browser. The purpose of this script is to navigate to the website https://nowsecure.nl, bypass any Cloudflare protection, and then quit the browser.
 
