@@ -1,4 +1,4 @@
-Sure, I'd be happy to explain this code!
+I'd be happy to explain this code!
 
 
 This code is written in Python and uses the DrissionPage library to automate a Chromium-based browser. The purpose of this script is to navigate to the website https://nowsecure.nl, bypass any Cloudflare protection, and then quit the browser.
