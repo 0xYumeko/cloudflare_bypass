@@ -1,5 +1,7 @@
 I'd be happy to explain this code!
 
+![1_K7YN0JC5efvH1mwLi3qwMA](https://github.com/0x3f3c/cloudflare_bypass/assets/154844497/2511d0ec-baae-4942-9084-cbc5de606f6b)
+
 
 This code is written in Python and uses the DrissionPage library to automate a Chromium-based browser. The purpose of this script is to navigate to the website https://nowsecure.nl, bypass any Cloudflare protection, and then quit the browser.
 
