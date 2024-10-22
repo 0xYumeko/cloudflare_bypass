@@ -1,3 +1,5 @@
+![Screenshot 2024-10-22 141758](https://github.com/user-attachments/assets/a2d7b694-3e85-45eb-8054-65e595f5303d)
+
 I'd be happy to explain this code!
 
 ![1_K7YN0JC5efvH1mwLi3qwMA](https://github.com/0x3f3c/cloudflare_bypass/assets/154844497/2511d0ec-baae-4942-9084-cbc5de606f6b)
