@@ -6,7 +6,6 @@ import time
 from DrissionPage import ChromiumPage, ChromiumOptions
 from colorama import Fore, Style
 
-# Header design with stars and improved spacing
 def print_logo():
     logo = f"""
     {Fore.RED}******************************************************************************{Style.RESET_ALL}
@@ -20,7 +19,6 @@ def print_logo():
     """
     print(logo)
 
-# Function to print status messages with proper formatting
 def print_status(message, status_type='info'):
     if status_type == 'info':
         print(f"{Fore.BLUE}[INFO] {Style.RESET_ALL}{message}")
@@ -31,7 +29,6 @@ def print_status(message, status_type='info'):
     elif status_type == 'error':
         print(f"{Fore.RED}[ERROR] {Style.RESET_ALL}{message}")
 
-# CAPTCHA bypass cycle with organized steps and status updates
 def pass_cycle(_driver: ChromiumPage):
     try:
         if _driver('xpath://div/iframe').s_ele(".ctp-checkbox-label") is not None:
@@ -44,13 +41,12 @@ def pass_cycle(_driver: ChromiumPage):
 
 
 if __name__ == '__main__':
-    print_logo()  # Display the enhanced logo
+    print_logo()  
 
     browser_path = "/usr/bin/google-chrome"
 
-    # Set Chromium options
     options = ChromiumOptions()
-    options.set_paths(browser_path=browser_path)  # Setting the browser path
+    options.set_paths(browser_path=browser_path) 
 
     arguments = [
         "-no-first-run",
@@ -67,17 +63,14 @@ if __name__ == '__main__':
         "-disable-gpu"
     ]
 
-    # Apply Chromium arguments for better performance
     for argument in arguments:
         options.set_argument(argument)
 
-    # Initialize the ChromiumPage
     driver = ChromiumPage(options=options)
 
     print_status("Launching the browser and opening the website...", "info")
     driver.get('https://nowsecure.nl')
 
-    # Loop to check for the CAPTCHA and bypass if detected
     while True:
         pass_cycle(driver)
         try:
